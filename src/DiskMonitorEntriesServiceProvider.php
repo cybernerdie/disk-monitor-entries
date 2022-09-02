@@ -2,9 +2,9 @@
 
 namespace Cybernerdie\DiskMonitorEntries;
 
+use Cybernerdie\DiskMonitorEntries\Commands\DiskMonitorEntriesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cybernerdie\DiskMonitorEntries\Commands\DiskMonitorEntriesCommand;
 
 class DiskMonitorEntriesServiceProvider extends PackageServiceProvider
 {

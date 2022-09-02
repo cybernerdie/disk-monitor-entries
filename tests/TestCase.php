@@ -2,9 +2,9 @@
 
 namespace Cybernerdie\DiskMonitorEntries\Tests;
 
+use Cybernerdie\DiskMonitorEntries\DiskMonitorEntriesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Cybernerdie\DiskMonitorEntries\DiskMonitorEntriesServiceProvider;
 
 class TestCase extends Orchestra
 {
