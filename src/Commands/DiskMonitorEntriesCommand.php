@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Cybernerdie\DiskMonitorEntries\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DiskMonitorEntriesCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'disk-monitor-entries';
 
     public $description = 'My command';
 
